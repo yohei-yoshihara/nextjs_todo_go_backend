@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var WaitValue time.Duration = 3
+var WaitValue time.Duration = 2
 
 // serveCmd represents the serve command
 var serveCmd = &cobra.Command{
@@ -44,7 +44,7 @@ func init() {
 
 	serveCmd.Flags().Int("port", 8000, "待ち受けるポート番号")
 	serveCmd.Flags().String("connect", "http://localhost:3000", "接続先")
-	serveCmd.Flags().Int("wait", 3, "待機時間(秒)")
+	serveCmd.Flags().Int("wait", 2, "待機時間(秒)")
 }
 
 type Folder struct {

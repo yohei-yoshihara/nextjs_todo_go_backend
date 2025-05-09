@@ -18,7 +18,8 @@ go build
 
 ```bash
 cd frontend
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 `http://localhost:8000`へアクセスする。
