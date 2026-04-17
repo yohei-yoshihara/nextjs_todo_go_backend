@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <div>Hello</div>
+      <div>You should not see this page, must be redirected to /folders</div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { Task } from "../lib/definitions";
+import { Task } from "@/lib/definitions";
 import TaskRow from "./task-row";
 
 type Props = {

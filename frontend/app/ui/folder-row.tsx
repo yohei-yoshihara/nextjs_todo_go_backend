@@ -1,4 +1,4 @@
-import { Folder } from "@/app/lib/definitions";
+import { Folder } from "@/lib/definitions";
 import Link from "next/link";
 import { MdDelete } from "react-icons/md";
 import { FaFolder } from "react-icons/fa";

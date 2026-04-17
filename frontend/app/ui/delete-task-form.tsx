@@ -2,7 +2,7 @@
 
 import Form from "next/form";
 import { useActionState } from "react";
-import { Task } from "../lib/definitions";
+import { Task } from "@/lib/definitions";
 import LinkButton from "./link-button";
 import Spinning from "./spinning";
 

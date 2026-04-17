@@ -1,4 +1,4 @@
-import { Task } from "@/app/lib/definitions";
+import { Task } from "@/lib/definitions";
 import { MdDelete } from "react-icons/md";
 import { SiTask } from "react-icons/si";
 import Link from "next/link";

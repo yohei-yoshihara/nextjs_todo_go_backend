@@ -1,4 +1,4 @@
-import { Folder } from "@/app/lib/definitions";
+import { Folder } from "@/lib/definitions";
 import TaskList from "@/app/ui/task-list";
 import Container from "@/app/ui/container";
 import Title from "@/app/ui/title";
