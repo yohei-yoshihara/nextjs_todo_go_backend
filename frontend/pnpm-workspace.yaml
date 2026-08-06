@@ -4,3 +4,7 @@ allowBuilds:
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+peerDependencyRules:
+  allowedVersions:
+    eslint: "10"
+    typescript: "7"
